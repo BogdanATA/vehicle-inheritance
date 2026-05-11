@@ -12,10 +12,10 @@ public class SemiTruck extends Vehicle {
     }
 
     public void loadCargo() {
-
+        System.out.println("Trailer Attached");
     }
 
     public void unloadCargo() {
-
+        System.out.println("Trailer De-Attached");
     }
 }

@@ -57,18 +57,18 @@ public class Vehicle {
     }
 
     public void startEngine() {
-
+        System.out.println("Engine Started!");
     }
 
     public void stopEngine() {
-
+        System.out.println("Engine Stopped!");
     }
 
     public void accelerate() {
-
+        System.out.println("Accelerating!");
     }
 
     public void brake() {
-
+        System.out.println("Braking!");
     }
 }

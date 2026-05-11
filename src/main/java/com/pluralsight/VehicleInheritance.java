@@ -18,11 +18,15 @@ public class VehicleInheritance {
         peterbilt.setNumberOfTrailers(1);
 
         Hovercraft hover = new Hovercraft();
-        hover.setColor("Orange");
+        hover.setAirCushionPressure(10);
         hover.setTopSpeed(35);
         hover.setNumberOfPassengers(1);
 
 
+        slowRide.startEngine();
+        System.out.println(slowRide.getTopSpeed());
+        System.out.println(slowRide.getNumberOfPassengers());
 
+        System.out.println(dailyDriver.getColor());
     }
 }

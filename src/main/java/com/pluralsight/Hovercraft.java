@@ -12,6 +12,6 @@ public class Hovercraft extends Vehicle {
     }
 
     public void hover() {
-
+        System.out.println("Lift Off!");
     }
 }
